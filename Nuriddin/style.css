@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav{
+    font-family: sans-serif;
+    display: inline-block;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    margin-left: 25px;
+    position: relative;
+    top: -50px;
+}
+a:hover{
+    border-bottom: 2px solid red;
+}
+.back h1{
+    font-size: 60px;
+    font-family: sans-serif;
+    margin-left: 45px;
+    margin-top: -700px;
+}
+.back p{
+    margin-left: 45px;
+}
+.back button{
+    margin-left: 45px;
+    margin-top: 20px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    color: white;
+}
+.back img{
+    display: inline-block;
+    width: 100%;
+    margin-top: -20px;
+}
